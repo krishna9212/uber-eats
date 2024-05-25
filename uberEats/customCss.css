@@ -1,0 +1,7 @@
+/* custom css */
+.nav_menu i {
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  text-align: center;
+}

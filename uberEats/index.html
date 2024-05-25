@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="customCss.css" />
+  </head>
+  <body>
+    <div class="main bg-gray-900 h-screen w-screen">
+      <header class="l-header text-white p-4 text-[0.99rem]" id="header">
+        <nav class="nav flex flex-row justify-around items-center">
+          <a
+            href="#"
+            class="nav_logo flex flex-col leading-[1.1rem] justify-center text-[1.3rem]"
+          >
+            <p class="">Uber</p>
+            <span class="text-green-400 text-[1.4rem]x">Eats</span>
+          </a>
+
+          <div class="nav_menu flex items-center pr-8" id="nav-menu">
+            <ul
+              class="nav_list flex flex-row gap-7 justify-around items-center"
+            >
+              <li class="nav_item">
+                <a
+                  href="#home"
+                  class="nav_link hover:text-green-600 transition-all duration-500"
+                  >Home</a
+                >
+              </li>
+              <li class="nav_item">
+                <a
+                  href="#about"
+                  class="nav_link hover:text-green-600 transition-all duration-500"
+                  >About Us</a
+                >
+              </li>
+              <li class="nav_item">
+                <a
+                  href="#services"
+                  class="nav_link hover:text-green-600 transition-all duration-500"
+                  >services</a
+                >
+              </li>
+              <li class="nav_item">
+                <a
+                  href="#foods"
+                  class="nav_link hover:text-green-600 transition-all duration-500"
+                  >Food</a
+                >
+              </li>
+              <li class="hidden_item hidden">
+                <a
+                  href="#app"
+                  class="nav_link hover:text-green-600 transition-all duration-500"
+                  >App</a
+                >
+              </li>
+              <li class="nav_item">
+                <a
+                  href="#contact"
+                  class="nav_link hover:text-green-600 transition-all duration-500"
+                  >Contact us</a
+                >
+              </li>
+              <li id="toggle-icon" class="nav_item">
+                <i class="fa-solid fa-sun"></i>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <section class="home h-[80%] w-full" id="home">
+        <div
+          class="home_container flex flex-row h-full w-full justify-center items-center bd-container bd-grid"
+        >
+          <div class="home_data text-5xl flex flex-col gap-6">
+            <h1 class="home_title text-green-500 text-[3.1rem] font-medium">
+              Delicious food
+            </h1>
+            <h2
+              class="home_subtitle text-white font-semibold pb-2 text-[3.2rem]"
+            >
+              On your doorstep! 😋
+            </h2>
+            <span>
+              <a
+                href="#foods"
+                class="button bg-green-500 rounded-lg text-2xl p-3 active:bg-green-600/80 transition-all duration-500 text-black delay-75 font-semibold active:outline-green-300 outline-none"
+                >Order Now</a
+              >
+            </span>
+          </div>
+          <img
+            src="./../assets/img/home.png"
+            alt="hero picture"
+            class="home_img object-contain h-[90%] w-1/2"
+          />
+        </div>
+      </section>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
